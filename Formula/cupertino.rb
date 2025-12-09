@@ -2,7 +2,7 @@ class Cupertino < Formula
   desc "Apple Documentation MCP Server - Search Apple docs, Swift Evolution, and sample code"
   homepage "https://github.com/mihaelamj/cupertino"
   url "https://github.com/mihaelamj/cupertino/releases/download/v4.0.0/cupertino-v4.0.0-macos-universal.tar.gz"
-  sha256 "cf035352f3fd45dd54c21cf60d9335754038a0ad09aafb7bf46ebd8a51ac0b40"
+  sha256 "5c5cf7ab3dba6ee2924e59aaf8c4b57a57839142abda5cf88808ad9aec8c99b1"
   version "4.0.0"
   license "MIT"
 
