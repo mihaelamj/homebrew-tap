@@ -1,9 +1,9 @@
 class Cupertino < Formula
   desc "Apple Documentation MCP Server - Search Apple docs, Swift Evolution, and sample code"
   homepage "https://github.com/mihaelamj/cupertino"
-  url "https://github.com/mihaelamj/cupertino/releases/download/v0.3.4/cupertino-v0.3.4-macos-universal.tar.gz"
-  sha256 "14c5547471fbda671d8f86d50746f33ed7375bb03d17ff5a550c110adc35671f"
-  version "0.3.4"
+  url "https://github.com/mihaelamj/cupertino/releases/download/v4.0.0/cupertino-v4.0.0-macos-universal.tar.gz"
+  sha256 "cf035352f3fd45dd54c21cf60d9335754038a0ad09aafb7bf46ebd8a51ac0b40"
+  version "4.0.0"
   license "MIT"
 
   depends_on :macos
@@ -20,6 +20,6 @@ class Cupertino < Formula
   end
 
   test do
-    assert_match "0.3.4", shell_output("#{bin}/cupertino --version")
+    assert_match "4.0.0", shell_output("#{bin}/cupertino --version")
   end
 end
